@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>assignment 9.2</title>
+	<!-- script loads external javascript file assignment9.2.js --> 
+    <script type="text/javascript" src="assignment9.2.js"></script>
+</head>
+<body>
+    <script "type/javascript">
+        var airPlane1 = new airPlane("Boeing 747",700,800); //airPlane1, airPlane2 and airPlane3 are 3 objects
+        var airPlane2 = new airPlane("Airbus",800,700);
+        var airPlane3 = new airPlane("Boeing Dreamliner",900,1000);
+		
+        console.log("Airplane details");
+        console.log(airPlane1.print()); //airPlane1, airPlane2 and airPlane3 objects invokes print() method
+        console.log(airPlane2.print());
+        console.log(airPlane3.print());
+		
+        airPlane1.seatingCapacity+=10; //existing seatingCapacity of airPlane1, airPlane2 and airPlane3 objects are increased by 10 
+        airPlane2.seatingCapacity+=10;
+        airPlane3.seatingCapacity+=10;
+		
+        console.log("All airplanes seating capacity increased by 10 numbers");
+        console.log(airPlane1.print());
+        console.log(airPlane2.print());
+        console.log(airPlane3.print());
+		
+        delete airPlane1.maximumSpeed; //deletes maximumSpeed property of the airPlane1, airPlane2 and airPlane3 objects
+        delete airPlane2.maximumSpeed;
+        delete airPlane3.maximumSpeed;
+		
+        console.log(airPlane1);
+        console.log(airPlane2);
+        console.log(airPlane3);
+		
+        console.log("new averageSpeed property added to airPlane objects");
+        airPlane1.averageSpeed=600; //airPlane1, airPlane2 and airPlane3 objects includes a new averageSpeed property
+        airPlane2.averageSpeed=600;
+        airPlane3.averageSpeed=600;
+		
+        console.log(airPlane1);
+        console.log(airPlane2);
+        console.log(airPlane3);
+    </script>
+</body>
+</html>

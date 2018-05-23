@@ -1,0 +1,15 @@
+assignment9.2.html:15 Airplane details
+assignment9.2.html:16 model: Boeing 747 , Seating capacity: 700 , Maximum speed: 800
+assignment9.2.html:17 model: Airbus , Seating capacity: 800 , Maximum speed: 700
+assignment9.2.html:18 model: Boeing Dreamliner , Seating capacity: 900 , Maximum speed: 1000
+assignment9.2.html:22 All airplanes seating capacity increased by 10 numbers
+assignment9.2.html:23 model: Boeing 747 , Seating capacity: 710 , Maximum speed: 800
+assignment9.2.html:24 model: Airbus , Seating capacity: 810 , Maximum speed: 700
+assignment9.2.html:25 model: Boeing Dreamliner , Seating capacity: 910 , Maximum speed: 1000
+assignment9.2.html:29 airPlaneaverageSpeed: 600model: "Boeing 747"print: ƒ print()seatingCapacity: 710__proto__: Object
+assignment9.2.html:30 airPlaneaverageSpeed: 600model: "Airbus"print: ƒ print()seatingCapacity: 810__proto__: Object
+assignment9.2.html:31 airPlaneaverageSpeed: 600model: "Boeing Dreamliner"print: ƒ print()seatingCapacity: 910__proto__: Object
+assignment9.2.html:32 new averageSpeed property added to airPlane objects
+assignment9.2.html:36 airPlaneaverageSpeed: 600model: "Boeing 747"print: ƒ print()seatingCapacity: 710__proto__: Object
+assignment9.2.html:37 airPlane
+assignment9.2.html:38 airPlane
